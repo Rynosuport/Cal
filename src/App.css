@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(190, 189, 189, 0.63);
+  border-radius: 1rem;
+  padding: 1rem;
+  border: black 2px solid;
+  gap: 1rem;
+}
+.keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
